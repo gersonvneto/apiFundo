@@ -299,6 +299,7 @@ emissores_caracteristicas_fundos <- function(download_path = NULL, verbose = TRU
 # devtools::use_package('lubridate', pkg = 'apiFundo')
 # devtools::use_package('readODS', pkg = 'apiFundo')
 # devtools::use_package('jsonlite', pkg = 'apiFundo')
+# abjutils::use_pipe()
 
 # documenta o pacote
 #devtools::document('apiFundo')
@@ -306,6 +307,7 @@ emissores_caracteristicas_fundos <- function(download_path = NULL, verbose = TRU
 # instala o pacote na máquina
 #devtools::install('apiFundo')
 # d
+
 
 
 
