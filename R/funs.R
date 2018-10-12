@@ -305,6 +305,7 @@ emissores_caracteristicas_fundos <- function(download_path = NULL, verbose = TRU
 
 # instala o pacote na máquina
 #devtools::install('apiFundo')
+# d
 
 
 
