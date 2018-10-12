@@ -1,0 +1,20 @@
+Package: apiFundo
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.5.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    httr,
+    magrittr,
+    xml2,
+    rvest,
+    readr,
+    janitor,
+    lubridate,
+    readODS,
+    jsonlite
+RoxygenNote: 6.1.0
