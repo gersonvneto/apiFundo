@@ -134,7 +134,8 @@ retornar_quota_recente <- function(CNPJ_BUSCA){
   output <- data.frame(DATA_QUOTA = data,
                        QUOTA = quota,
                        stringsAsFactors = FALSE)
-  return(jsonlite::toJSON(output))
+  #return(jsonlite::toJSON(output))
+  return(output)
 }
 
 
